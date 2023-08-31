@@ -1,0 +1,9 @@
+---
+- hosts: jenkins-master
+  become: true
+  tasks:
+  - name: add jenkins key 
+    apt-key:
+    url: 
+
+  
